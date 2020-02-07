@@ -8,6 +8,15 @@
   color: var(--highlight);
 }
 
+
+.beige {
+  color: #C5Bead;
+}
+
+.dark-beige{
+  color: #CFC1AE;
+}
+
 .white {
   color: var(--white);
 }
