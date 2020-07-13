@@ -17,6 +17,9 @@ export default class Jumbotron extends React.Component {
             <div className="mw7 relative bg-fix-primary">
               {subtitle && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ subtitle }</p>}
             </div>
+            <div className="mw7 relative bg-fix-primary">
+               {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
+            </div>
           </div>
         </div>
       </div>
