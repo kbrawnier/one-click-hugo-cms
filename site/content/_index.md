@@ -2,8 +2,6 @@
 title: Santa Fe 1880
 subtitle: The Year of the Railroad
 image: /img/santaFe.jpg
-  text: >-
-    This is some text to test the system.
 blurb:
   heading: Allen R. Steele
   text: >-
