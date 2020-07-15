@@ -1,4 +1,4 @@
-FROM .gitpod.Dockerfile
+FROM .gitpod.dockerfile
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
