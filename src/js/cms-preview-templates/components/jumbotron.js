@@ -2,7 +2,7 @@ import React from "react";
 
 export default class Jumbotron extends React.Component {
   render() {
-    const {image, title, subtitle} = this.props;
+    const {image, title, subtitle, text} = this.props;
     return <div>
       <div className="pv5 pv6-l ph3 bg-center cover" style={{
         backgroundImage: image && `url(${image})`
@@ -18,7 +18,7 @@ export default class Jumbotron extends React.Component {
               {subtitle && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ subtitle }</p>}
             </div>
             <div className="mw7 relative bg-fix-primary">
-               {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
+              {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
             </div>
           </div>
         </div>

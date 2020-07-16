@@ -1,6 +1,7 @@
 ---
 title: Santa Fe 1880
 subtitle: The Year of the Railroad
+text: Lorem ipsum dolor sit amet
 image: /img/santaFe.jpg
 blurb:
   heading: Allen R. Steele
