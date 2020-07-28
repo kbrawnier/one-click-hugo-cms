@@ -2,7 +2,7 @@ import React from "react";
 
 export default class Jumbotron extends React.Component {
       func() { if (book_image !== null || book_image !== ''){
-                <img src = {book_image} alt="This is something"/>
+                return <img src = {book_image} alt="This is something"/>
                 }
             }
     render() {
