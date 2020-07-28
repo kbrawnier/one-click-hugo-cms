@@ -1,13 +1,9 @@
 import React from "react";
 
 export default class Jumbotron extends React.Component {
-      book_image = this.props;
-      func() { if (book_image !== null || book_image !== ''){
-                return <img src = {book_image} alt="This is something"/>
-                }
-            }
+      
     render() {
-    const {image, title, subtitle, text} = this.props;
+    const {image, title, subtitle, text, book_image} = this.props;
 
     return <div>
       <div className="pv5 pv6-l ph3 bg-center cover" style={{
@@ -27,7 +23,9 @@ export default class Jumbotron extends React.Component {
               {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
             </div>
             <div>
-                {this.func()}
+                 if (book_image !== null || book_image !== ''){
+                <img src = {book_image} alt="This is something"/>
+                }
             </div>
           </div>
         </div>
