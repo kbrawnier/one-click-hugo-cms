@@ -26,7 +26,7 @@ export default class Jumbotron extends React.Component {
               {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
             </div>
             <div>
-                {this.func()}
+                {() => this.func()}
             </div>
           </div>
         </div>
