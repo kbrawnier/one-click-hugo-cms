@@ -21,7 +21,7 @@ export default class Jumbotron extends React.Component {
               {text && <p className="b f4 di lh-title mb3 white mw6 bg-primary">{ text }</p>}
             </div>
             <div>
-                <img src = "{book_image}" alt=""/>
+                <img src = {book_image && "{book_image}"} alt="This is something"/>
             </div>
           </div>
         </div>
