@@ -2,8 +2,8 @@
 title: Santa Fe 1880
 subtitle: The Year of the Railroad
 text: Lorem ipsum dolor sit amet
-image: /img/santaFe.jpg
 book_image: /img/unkSF.jpg
+image: /img/santaFe.jpg
 blurb:
   heading: Allen R. Steele
   text: >-
@@ -22,19 +22,22 @@ intro:
     non eu eros. Curabitur commodo lacus ultricies nulla porttitor, sed
     pulvinar.
 products:
-  - image: img/illustrations-coffee.svg
-    text: >-
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
+  - text: >-
+      Learn about Allen Steele's 25 years of miracle filled mission work. Read
+      about Allen and Andrea's time in Portugal during the Carnation Revolution
+      when they're radio station was the only one on the air, broadcasting God's
+      Message. Read about how God's message was broadcast over the Iron Curtain
+      for the first time since 1922.
+    image: /img/unkLLIR.jpg
+  - text: >-
+      Learn about the interesting story of Andre Lamoreaux a huguenot migrant to
+      England, ship master, ship builder and later in life captured by pirates.
+    image: /img/unkTFP.jpg
+  - text: >-
+      Learn of Santa Fe, New Mexico at a time in history when time was ever
+      changing. The end of the wagon trains as the first steam engine arrived,
+      and Billy the Kid was captured and escaped.
+    image: /img/unkSF.jpg
 values:
   heading: Our values
   text: >-
