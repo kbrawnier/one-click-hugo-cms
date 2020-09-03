@@ -5,15 +5,10 @@ text: Lorem ipsum dolor sit amet
 image: /img/santaFe.jpg
 book_image: /img/unkSF.jpg
 blurb:
-  heading: Allen R. Steele
+  heading: Tours Available
   text: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare massa
-    vel enim lacinia tristique. Integer ac elit sed neque tincidunt vestibulum
-    non eu eros. Curabitur commodo lacus ultricies nulla porttitor, sed pulvinar
-    dolor ornare. Nullam quis tempus dolor. Fusce eu lorem eu elit aliquet
-    tincidunt tempus et massa. Morbi sapien orci, feugiat ac gravida eu,
-    faucibus vehicula metus. Nunc ut ante elit. Vivamus semper augue ornare,
-    viverra magna vitae.
+    Contact Me
+  image: /img/unkallen.jpg
 intro:
   heading: Tours
   text: >-
