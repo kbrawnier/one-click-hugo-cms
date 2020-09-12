@@ -7,7 +7,7 @@ image: /img/santaFe.jpg
 blurb:
   heading: Tours Available
   text: >-
-    Contact Me
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
   image: /img/unkallen.jpg
 intro:
   heading: Tours
@@ -40,5 +40,8 @@ values:
     of colonialism and mindless abuse of natural resources and human lives. We
     want to turn this around and return the coffee trade to the drink’s
     exhilarating, empowering and unifying nature.
+blog:
+  title: Updates From the Author
+  image: /img/envelope.jpg
 ---
 
