@@ -23,16 +23,16 @@ products:
       when they're radio station was the only one on the air, broadcasting God's
       Message. Read about how God's message was broadcast over the Iron Curtain
       for the first time since 1922.
-    image: /img/unkLLIR.jpg
+    image: /img/books/unkLLIR.jpg
   - text: >-
       Learn about the interesting story of Andre Lamoreaux a huguenot migrant to
       England, ship master, ship builder and later in life captured by pirates.
-    image: /img/unkTFP.jpg
+    image: /img/books/unkTFP.jpg
   - text: >-
       Learn of Santa Fe, New Mexico at a time in history when time was ever
       changing. The end of the wagon trains as the first steam engine arrived,
       and Billy the Kid was captured and escaped.
-    image: /img/unkSF.jpg
+    image: /img/books/unkSF.jpg
 values:
   heading: Our values
   text: >-
