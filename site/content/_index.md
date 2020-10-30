@@ -2,7 +2,7 @@
 title: Santa Fe 1880
 subtitle: The Year of the Railroad
 text: Lorem ipsum dolor sit amet
-book_image: /img/unkSF.jpg
+book_image: /img/books/unkSF.jpg
 image: /img/santaFe.jpg
 blurb:
   heading: Tours Available
