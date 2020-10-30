@@ -4,6 +4,10 @@
   color: var(--primary);
 }
 
+.mid-highlight{
+  color: var(--mid-highlight);
+}
+
 .highlight {
   color: var(--highlight);
 }
@@ -93,6 +97,10 @@
 
 .bg-black {
   background-color: var(--black);
+}
+
+.text-shadow {
+  -webkit-text-stroke: 1px var(--grey-3);
 }
 
 .bg-fix-primary {

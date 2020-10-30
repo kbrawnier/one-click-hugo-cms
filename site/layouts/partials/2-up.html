@@ -2,47 +2,18 @@
   <div class="ph3 mw7 center">
     <h2 class="f2 b lh-title mb2 dark-blue tc pb4">{{.intro.heading}}</h2>
 
-    <div class="flex-ns mhn2-ns mb3">
-      <div class="books">
-        <div id="book1">
-          <img src="img/books/unkLLIR.jpg" alt="Loud Let it Ring">
-        </div>
-        <div>
-          Learn of the miracles that God has done throughout Allen's life. Read how his christian radio station was
-          the only one not taken off the air during the Carnation War in the Portugal. Learn how his radio station
-          was the first to pierce the Iron Curtain with the Gospel Message.
-        </div>
-      </div>
-      <div class="books">
-        <div id="book2">
-          <img src="img/books/unkSF.jpg" alt="Santa Fe 1880: Chronicles from the Year of the Railroad">
-        </div>
-        <div>
-          
+    <div class="mhn2-ns mb3">
+      {{ range .products }}
+      <div class="books w-100 grid g-1">
+       <img src="{{ .image }}" alt="" style="height: 350px; width: 225px;">
+       {{ .text }}
+        <div class="tc column-span">
+          <a class="prev f4 dark-blue hover pr3 pointer" onclick="plusSlides(-1)">&#10094;</a>
+          <a href="{{ .buttonUrl }}" class="btn raise">Purchase the Book</a>
+          <a class="next f4 dark-blue hover pl3 pointer" onclick="plusSlides(1)">&#10095;</a>
         </div>
       </div>
-      <div class="books">
-        <div id="book3">
-          <img src="img/books/unkTFP.jpg" alt="The French Pilot: A Seafaring Tale of Adventure and Faith">
-        </div>
-        <div>
-          André was a Huguenot, among the French Protestants who followed the teachings of John Calvin and were forced 
-          to flee France in the 16th and 17th centuries to escape continuing persecution. The French Pilot is a riveting 
-          retelling of André's life from a young boy through the trials and events that would make him a hero in his 
-          family line, respected by his family and friends, and a dedicated man of God. Beginning in the late 1600s, 
-          Steele traces André as a child in a French village, Lusignan, to a coastal shipping town, Meschers, to Bristol, 
-          England, and finally to New York.
-        </div>
-        <div>
-
-        </div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-
-    <div class="tc">
-      <a href="/products" class="btn raise">Purchase the Book</a>
+      {{ end }}
     </div>
   </div>
 </div>

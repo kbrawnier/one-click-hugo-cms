@@ -24,15 +24,18 @@ products:
       Message. Read about how God's message was broadcast over the Iron Curtain
       for the first time since 1922.
     image: /img/books/unkLLIR.jpg
+    buttonUrl: https://www.amazon.com/Loud-Let-Ring-Twenty-Five-Miracles/dp/B01JXPAPHU
   - text: >-
       Learn about the interesting story of Andre Lamoreaux a huguenot migrant to
       England, ship master, ship builder and later in life captured by pirates.
     image: /img/books/unkTFP.jpg
+    buttonUrl: https://www.amazon.com/French-Pilot-Seafaring-Aventure-Faith/dp/187601086X
   - text: >-
       Learn of Santa Fe, New Mexico at a time in history when time was ever
       changing. The end of the wagon trains as the first steam engine arrived,
       and Billy the Kid was captured and escaped.
     image: /img/books/unkSF.jpg
+    buttonUrl: https://www.amazon.com/Santa-Fe-1880-Chronicles-Railroad/dp/1467141941
 values:
   heading: Our values
   text: >-
