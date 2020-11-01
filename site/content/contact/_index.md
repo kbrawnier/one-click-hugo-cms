@@ -1,5 +1,5 @@
 ---
-title: Books
+title: Contact
 logo: /img/sf.jpg
 contact_entries:
   - heading: Location
