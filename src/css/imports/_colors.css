@@ -56,6 +56,10 @@
   color: var(--black);
 }
 
+.antiqueWhite {
+  color: antiquewhite;
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue);
 }
