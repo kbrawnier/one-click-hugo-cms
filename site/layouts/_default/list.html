@@ -1,8 +1,9 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
-
-<div class="mw7 center">
+<div class="center cover" style="background-image: url(/img/envelope.jpg)">
+  <h1 class="f2 f1-l b di lh-title mb3 dark-blue mw6">
+    Latest Stories
+  </h1>
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
           <div class="w-50-ns ph1-ns flex">
