@@ -1,12 +1,10 @@
 [build.environment]
-  YARN_VERSION = "1.22.4"
-  NPM_VERSION = "6.14.15"
-  HUGO_VERSION = "0.55.6"
+  YARN_VERSION = "1.12.1"
+  NPM_VERSION = "6.4.1"
 
 [build]
   command = "yarn build"
   publish = "dist"
-
 
 [context.deploy-preview]
   command = "yarn build:preview"

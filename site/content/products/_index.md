@@ -1,6 +1,6 @@
 ---
-title: "Books"
-type: books
+title: Books
+type: products
 books:
     - background_image: /img/radio_tower.jpg
       heading: Loud Let It Ring
@@ -14,15 +14,15 @@ books:
     - background_image: /img/galleon.jpg
       heading: The French Pilot
       sub_heading: A Seafaring Tale of Adventure and Faith
-      text_size: f7
+      text_size: f8
       width: w-75
       text: >
         Learn about the interesting story of Andre Lamoreaux a huguenot migrant to England, ship master, ship builder and later in life captured by pirates.
       book_image: /img/books/unkTFP.jpg
-    - background_image: /img/santaFe-opaque.jpg
+    - background_image: /img/santaFe.jpg
       heading: Santa Fe 1880      
       sub_heading: Chronicles from the Year of the Railroad
-      text_size: f7
+      text_size: f8
       width: w-75
       text_color: black
       text: >
